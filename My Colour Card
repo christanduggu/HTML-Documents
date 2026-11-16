@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>My Colour Card</title>
+
+<style>
+/* Universal Selector Applies To Everthing On */
+* {Font-Size:16px; }
+/* Element Sectors */ body { background-color: lightgray;}
+h1 {color: darkblue;}
+h2 {color:purple;}
+p {color:dimgray}
+/* Class Sector */
+.my-detail {color: darkgreen; font-weight:bold}
+/* ID Selector */
+#mycard {background-color: lightcyan;}
+</style>
+</head>
+<body>
+
+<h1> My Color Card </h1>
+<p style="color: crimson;"> Hi! This Is My Very Own Web Page.</p>
+<divid="my-card">
+<h2>About Me</h2>
+<p class= "my-detail">My Name Is Sam.</p>
+<p class= "my-detail">My Favorite Color Is Red</p>
+<p class= "my-detail">My Favorite Subject Is Maths</p>
+<p class= "my-detail">My Favorite </Fieldset>
+
+
+    
