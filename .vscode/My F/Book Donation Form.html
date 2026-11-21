@@ -1,0 +1,65 @@
+<h1>Book Donation Form</h1>
+<form>
+  <!-- PART 1: Donor Details -->
+  <fieldset>
+    <legend>Donor Details</legend>
+
+    <label for="donor-name">Your Name</label>
+    <input type="text" id="donor-name" name="donor_name" required>
+
+    <label for="donor-id">Donor ID</label>
+    <input type="password" id="donor-id" name="donor_id" required>
+
+    <label for="donation-date">Donation Date</label>
+    <input type="date" id="donation-date" name="donation_date" required>
+  </fieldset>
+
+  <!-- PART 2 & 3: Book Details and Title/Notes -->
+  <fieldset>
+    <legend>Book Details</legend>
+
+    <label for="book-category">Book Category</label>
+    <select id="book-category" name="book_category">
+      <option value="fiction">Fiction</option>
+      <option value="science">Science</option>
+      <option value="history">History</option>
+      <option value="education">Education</option>
+    </select>
+
+    <p>Book Condition</p>
+    <label for="condition-like-new">
+      <input type="radio" id="condition-like-new" name="book_condition" value="like-new">
+      Like New
+    </label>
+    <label for="condition-good">
+      <input type="radio" id="condition-good" name="book_condition" value="good">
+      Good
+    </label>
+    <label for="condition-used">
+      <input type="radio" id="condition-used" name="book_condition" value="used">
+      Used
+    </label>
+
+    <label for="book-notes">Book Title or Notes</label>
+    <textarea id="book-notes" name="book_notes" rows="4" cols="30"></textarea>
+  </fieldset>
+
+  <!-- PART 4: Drop-off days and button -->
+  <fieldset>
+    <legend>Drop-Off Day</legend>
+
+    <label for="day-monday">
+      <input type="checkbox" id="day-monday" name="drop_off_day" value="monday">
+      Monday
+    </label>
+    <label for="day-wednesday">
+      <input type="checkbox" id="day-wednesday" name="drop_off_day" value="wednesday">
+      Wednesday
+    </label>
+    <label for="day-friday">
+      <input type="checkbox" id="day-friday" name="drop_off_day" value="friday">
+      Friday
+    </label>
+  </fieldset>
+
+  <button type="submit">Donate My Book</button>
